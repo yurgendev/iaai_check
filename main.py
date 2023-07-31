@@ -197,8 +197,8 @@ def iaai_cheker(df1, df2):
 
 if __name__ == "__main__":
     try:
-        downloaded_file_path_483 = download_file(username_483, password_483, target_directory_483)
-        downloaded_file_path_581 = download_file(username_581, password_581, target_directory_581)
+        download_file(username_483, password_483, target_directory_483)
+        download_file(username_581, password_581, target_directory_581)
 
         process_table_483()
         process_table_581()
